@@ -44,3 +44,15 @@ int main(){
     return 0;
 }
 K. Max and Min: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/K
+#include <stdio.h>
+
+int main() {
+    int A, B, C;
+    scanf("%d %d %d", &A, &B, &C);
+
+    int max = (A >= B && A >= C) ? A : (B >= C ? B : C);
+    int min = (A <= B && A <= C) ? A : (B <= C ? B : C);
+
+    printf("%d %d", min, max);
+    return 0;
+}
