@@ -31,4 +31,16 @@ int main(){
     return 0;
 }
 M. Capital or Small or Digit: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/M
+#include<stdio.h>
+int main(){
+    char X;
+    scanf(" %c", &X);
+    if((X>='A' && X<='Z')|| (X>='a' && X<='z')){
+        printf("ALPHA\n");
+        if((X>='A' && X<='Z')) printf("IS CAPITAL\n");
+        else printf("IS SMALL\n");
+    }
+    else if((X>='0' && X<='9')) printf("IS DIGIT\n");
+    return 0;
+}
 K. Max and Min: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/K
