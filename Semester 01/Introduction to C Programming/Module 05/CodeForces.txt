@@ -23,5 +23,12 @@ int main(){
     return 0;
 }
 N. Char: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/N
+#include<stdio.h>
+int main(){
+    char X;
+    scanf(" %c", &X);
+    X>='A' && X<='Z' ? printf("%c", X+32):printf("%c", X-32);
+    return 0;
+}
 M. Capital or Small or Digit: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/M
 K. Max and Min: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/K
