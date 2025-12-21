@@ -1,4 +1,5 @@
 Problem Statement
+
 You will be given a non-negative integer N, and you need to tell if this number is divisible by 3 or not. If it is divisible by 3, output "YES" otherwis,e output "NO" without the quotation mark.
 
 Input Format
