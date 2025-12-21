@@ -1,0 +1,117 @@
+B. Even Numbers: https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/B
+#include <stdio.h>
+ 
+int main() {
+    int N, i, find_even = 0;
+    scanf("%d", &N);
+    for (i = 2; i <= N; i += 2) 
+    {
+        printf("%d\n",i);
+        find_even = 1;
+        }
+            if (!find_even) {
+            printf("-1\n");
+            }
+    return 0;
+}
+C. Even, Odd, Positive and Negative: https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/C
+#include <stdio.h>
+
+int main() {
+    int N, i, NUM;
+    scanf("%d", &N);
+    int even = 0, odd = 0, positive = 0, negative = 0;
+    for(i = 0; i < N; i++)
+    {
+        scanf("%d", &NUM);
+            if(NUM % 2 == 0) {
+                even++;
+                }
+            else {
+            odd++;
+            }
+            if(NUM > 0) {
+            positive++;
+            }
+            else if(NUM < 0) {
+            negative++;
+            }
+    }
+    printf("Even: %d\n", even);
+    printf("Odd: %d\n", odd);
+    printf("Positive: %d\n", positive);
+    printf("Negative: %d\n", negative);
+    return 0;
+}
+D. Fixed Password (EOF): https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/D
+#include <stdio.h>
+
+int main() {
+    const int X=1999;
+    for(int i=1;;i++) {
+        int P;
+        scanf("%d", &P);
+        if(P==X) {
+            printf("Correct\n");
+            break;
+        }
+        else
+        printf("Wrong\n");
+    }
+
+    return 0;
+}
+E. Max: https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/E
+#include <stdio.h>
+
+int main() {
+    int N;
+    long long num, max = -1;
+    scanf("%d", &N);
+    for (int i = 0; i < N; i++) {
+        scanf("%lld", &num);
+        if (num > max) {
+            max = num;
+        }
+    }
+    printf("%lld\n", max);
+    return 0;
+}
+F. Multiplication table: https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/F
+#include <stdio.h>
+
+int main() {
+    int N;
+    scanf("%d", &N);
+    for (int i = 1; i <= 12; i++) {
+        printf("%d * %d = %d\n", N, i, N * i);
+    }
+
+    return 0;
+}
+Q. Digits: https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/Q
+#include <stdio.h>
+ 
+int main() {
+    int T;
+    scanf("%d", &T);
+ 
+    while (T--) {
+        long long N;
+        scanf("%lld", &N);
+ 
+        if (N == 0) {
+            printf("0\n");
+        }
+        else {
+            while (N > 0) {
+                printf("%lld", N % 10);
+                N /= 10;
+                if (N > 0) printf(" ");
+            }
+            printf("\n");
+        }
+    }
+    return 0;
+}
+
