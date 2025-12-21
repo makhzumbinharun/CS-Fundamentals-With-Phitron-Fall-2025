@@ -108,6 +108,25 @@ int main() {
     printf("%lld\n", max);
     return 0;
 }
+Alternative:
+
+#include <stdio.h>
+#include <limits.h>
+int main() {
+    int N;
+    int num;
+    int max = INT_MIN;
+    scanf("%d", &N);
+    for (int i = 0; i < N; i++) {
+        scanf("%d", &num);
+        if (num > max) {
+            max = num;
+        }
+    }
+    printf("%d\n", max);
+    return 0;
+}
+
 F. Multiplication table: https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/F
 #include <stdio.h>
 
