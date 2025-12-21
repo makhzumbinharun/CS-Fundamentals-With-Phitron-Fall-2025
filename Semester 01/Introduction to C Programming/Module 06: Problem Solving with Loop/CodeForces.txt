@@ -77,6 +77,21 @@ int main() {
 
     return 0;
 }
+Alternative:
+
+#include <stdio.h>
+int main() {
+    int pass;
+    while(scanf("%d", &pass)!=EOF) {
+        if(pass==1999) {
+            printf("Correct\n");
+            break;
+        }
+        else  printf("Wrong\n");
+    }
+
+    return 0;
+}
 E. Max: https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/E
 #include <stdio.h>
 
