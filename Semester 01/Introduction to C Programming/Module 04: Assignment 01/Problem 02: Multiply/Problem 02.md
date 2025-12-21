@@ -1,4 +1,5 @@
 Problem Statement
+
 You will be given two integers A and B. You need to give the output of their multiplication.
 
 Input Format
