@@ -15,6 +15,13 @@ int main(){
     return 0;
 }
 P. First digit !: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/P
+#include<stdio.h>
+int main(){
+    char X;
+    scanf(" %c", &X);
+    X%2==0 ? printf("EVEN"):printf("ODD");
+    return 0;
+}
 N. Char: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/N
 M. Capital or Small or Digit: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/M
 K. Max and Min: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/K
