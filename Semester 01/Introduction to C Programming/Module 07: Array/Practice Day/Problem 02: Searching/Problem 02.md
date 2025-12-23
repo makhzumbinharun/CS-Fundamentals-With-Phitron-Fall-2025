@@ -36,4 +36,4 @@ OutputCopy
 0
 
 
-Problem Link: B. Searching: https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/B
+Problem Link: https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/B
