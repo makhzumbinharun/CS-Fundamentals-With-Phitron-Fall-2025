@@ -1,5 +1,0 @@
-Question Link: A. Summation: https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/A
-Question Link: B. Searching: https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/B
-Question Link: C. Replacement: https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/C
-Question Link: D. Positions in array: https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/D
-Question Link: E. Lowest Number: https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/E
