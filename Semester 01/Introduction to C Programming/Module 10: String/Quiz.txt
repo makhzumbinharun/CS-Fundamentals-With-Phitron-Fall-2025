@@ -3,7 +3,7 @@ a) int str[];
 b) char name[size];
 c) char name;
 d) All of the above
-Explanation: C প্রোগ্রামিংয়ে স্ট্রিং ডিক্লেয়ার করতে char টাইপের অ্যারে ব্যবহার করা হয়, যেমন: char name[size];। এখানে name স্ট্রিং ভেরিয়েবল এবং size হল সর্বোচ্চ ক্যারেক্টার সাইজ।
+Explanation: C) প্রোগ্রামিংয়ে স্ট্রিং ডিক্লেয়ার করতে char টাইপের অ্যারে ব্যবহার করা হয়, যেমন: char name[size];। এখানে name স্ট্রিং ভেরিয়েবল এবং size হল সর্বোচ্চ ক্যারেক্টার সাইজ।
 
 
 2. What is the null character in C programming?
@@ -11,7 +11,7 @@ a) The character '0'
 b) The character '\0'
 c) The character ''
 d) The character '\'
-Explanation: C প্রোগ্রামিংয়ে NULL ক্যারেক্টার ('\0') হলো স্ট্রিংয়ের শেষ নির্দেশকারী বিশেষ ক্যারেক্টার, যার ASCII মান 0। এটি কম্পাইলারকে বুঝায় যে স্ট্রিংটি এখানেই শেষ।
+Explanation: C) প্রোগ্রামিংয়ে NULL ক্যারেক্টার ('\0') হলো স্ট্রিংয়ের শেষ নির্দেশকারী বিশেষ ক্যারেক্টার, যার ASCII মান 0। এটি কম্পাইলারকে বুঝায় যে স্ট্রিংটি এখানেই শেষ।
 
 
 3. What is the purpose of the null character in string?
