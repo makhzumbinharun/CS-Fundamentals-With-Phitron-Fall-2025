@@ -10,3 +10,8 @@ int main() {
 	cout << S << " " << T << endl;
 	return 0;
 }
+
+
+A. Square or rectangle: https://codeforces.com/group/MWSDmqGsZm/contest/329103/problem/A
+
+
